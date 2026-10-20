@@ -44,7 +44,7 @@ export default function Sidebar({
           </div>
           <div className="brand-info">
             <h1>
-              Parman AI <span>(प्रमाण)</span>
+              Pramaan AI <span>(प्रमाण)</span>
             </h1>
             <p>{t.brandTagline}</p>
           </div>

@@ -10,7 +10,7 @@ BASE_URL = "http://127.0.0.1:8000"
 
 def run_tests():
     print("=" * 65)
-    print("  PARMAN AI: LIVE API & PIPELINE INTEGRATION TEST")
+    print("  PRAMAAN AI: LIVE API & PIPELINE INTEGRATION TEST")
     print(f"  Target: {BASE_URL}")
     print("=" * 65)
 

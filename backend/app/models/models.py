@@ -1,5 +1,5 @@
 """
-SQLAlchemy ORM Models for Parman AI Backend.
+SQLAlchemy ORM Models for Pramaan AI Backend.
 Defines tables for Centres, Batches, Cameras, Attendance, Equipment, Telemetry, and Discrepancy Alerts.
 """
 

@@ -1,4 +1,4 @@
-# 🔍 Parman AI (प्रमाण AI)
+# 🔍 Pramaan AI (प्रमाण AI)
 
 ### AI-Powered Real-Time Verification of Attendance & Infrastructure Compliance for MSDE Training Centres
 
@@ -9,11 +9,11 @@
 
 ---
 
-## 🎯 What Parman AI Solves
+## 🎯 What Pramaan AI Solves
 
 Under government skill development schemes (e.g. PMKVY), training centres claim financial disbursements based on self-reported attendance and mandated infrastructure. Physical audits are rare, resource-intensive, and susceptible to collusion, resulting in **Ghost Batches** (claims with zero students present) and unfulfilled lab equipment mandates.
 
-**Parman AI** solves this through a lightweight, privacy-preserving computer vision telemetry pipeline:
+**Pramaan AI** solves this through a lightweight, privacy-preserving computer vision telemetry pipeline:
 1. **Privacy-Preserving Vision AI**: YOLOv8s detects student headcount and verifies sanctioned equipment without individual biometric identification.
 2. **DPDP Act 2023 Compliant**: All faces in evidence frames are Gaussian-blurred at the edge before cloud upload. Every image is anchored with a cryptographic SHA-256 hash.
 3. **Over 99.7% Bandwidth Savings**: Replaces expensive continuous video streaming (21.1 GB/day) with smart frame telemetry (49.8 MB/day) — ideal for rural 2G/4G connectivity.
@@ -36,7 +36,7 @@ Under government skill development schemes (e.g. PMKVY), training centres claim 
 ## 📁 Repository Structure
 
 ```
-parman-ai/
+pramaan-ai/
 ├── ai_engine/                   # Edge Computer Vision Pipeline
 │   ├── detectors/               # YOLOv8s person & equipment detection modules
 │   ├── privacy/                 # DPDP Act 2023 Gaussian face blur engine
@@ -71,7 +71,7 @@ parman-ai/
 │   ├── telemetry/               # Sample AI telemetry output
 │   └── videos/                  # Sample classroom video clip for live testing
 │
-└── parman_ai.db                 # Central SQLite Database (7 tables populated)
+└── pramaan_ai.db                # Central SQLite Database (7 tables populated)
 ```
 
 ---
@@ -117,7 +117,7 @@ python verify_all.py
 
 ## 📊 Bandwidth Economy & Data Transmission Proof
 
-| Parameter | Continuous CCTV Streaming | Parman AI Edge Telemetry | Savings |
+| Parameter | Continuous CCTV Streaming | Pramaan AI Edge Telemetry | Savings |
 |:---|:---|:---|:---|
 | **Transmission Mode** | Raw RTSP 1080p @ 30fps | 1 sample / 25s JSON + key blurred JPEGs | **Edge processed** |
 | **Daily Data (1 Cam)** | **21.1 GB / day** | **49.8 MB / day** | **99.77% reduction** |
@@ -134,4 +134,4 @@ python verify_all.py
 ---
 
 ## 🏆 SIH 2026 Submission Note
-Built by Team Parman AI for the **Smart India Hackathon 2026** evaluation under the Ministry of Skill Development and Entrepreneurship (MSDE).
+Built by Team Pramaan AI for the **Smart India Hackathon 2026** evaluation under the Ministry of Skill Development and Entrepreneurship (MSDE).

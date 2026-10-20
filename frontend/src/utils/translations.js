@@ -2,7 +2,7 @@
 
 export const translations = {
   en: {
-    brandName: "Parman AI",
+    brandName: "Pramaan AI",
     brandHindi: "प्रमाण AI",
     brandTagline: "Smart Attendance & Compliance Monitoring",
     dashboard: "Dashboard",
@@ -44,7 +44,7 @@ export const translations = {
     storeAndForwardTitle: "Store-and-Forward Offline Resilience",
     storeAndForwardSubtitle: "Simulate network dropouts, local edge buffer queue, and chronological cloud flush",
     bandwidthCalcTitle: "Bandwidth Savings & Data Economy",
-    bandwidthCalcSubtitle: "Mathematical proof comparing continuous raw CCTV streaming vs Parman AI edge telemetry",
+    bandwidthCalcSubtitle: "Mathematical proof comparing continuous raw CCTV streaming vs Pramaan AI edge telemetry",
     
     // Filters & Buttons
     all: "All",
@@ -64,7 +64,7 @@ export const translations = {
   },
   hi: {
     brandName: "प्रमाण AI",
-    brandHindi: "Parman AI",
+    brandHindi: "Pramaan AI",
     brandTagline: "स्मार्ट उपस्थिति एवं अनुपालन निगरानी प्रणाली",
     dashboard: "डैशबोर्ड",
     nationalMap: "राष्ट्रीय मानचित्र",
@@ -105,7 +105,7 @@ export const translations = {
     storeAndForwardTitle: "स्टोर-एंड-फॉरवर्ड ऑफलाइन रेजिलिएंस",
     storeAndForwardSubtitle: "इंटरनेट व्यवधान, स्थानीय एज बफ़र कतार एवं स्वचालित क्लाउड सिंक का अनुकरण करें",
     bandwidthCalcTitle: "बैंडविड्थ बचत एवं डेटा अर्थव्यवस्था",
-    bandwidthCalcSubtitle: "कंटीन्यूअस CCTV स्ट्रीमिंग बनाम प्रमाण AI (Parman AI) एज टेलीमेट्री की गणितीय तुलना",
+    bandwidthCalcSubtitle: "कंटीन्यूअस CCTV स्ट्रीमिंग बनाम प्रमाण AI (Pramaan AI) एज टेलीमेट्री की गणितीय तुलना",
     
     // Filters & Buttons
     all: "सभी",

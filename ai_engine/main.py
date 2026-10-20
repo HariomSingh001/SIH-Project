@@ -1,5 +1,5 @@
 """
-Parman AI Engine - Main Pipeline
+Pramaan AI Engine - Main Pipeline
 Processes video feeds and produces privacy-masked telemetry output.
 
 Pipeline Flow:
@@ -30,7 +30,7 @@ from ai_engine.detectors.equipment_detector import EquipmentDetector
 from ai_engine.privacy import FaceBlurEngine
 
 
-class ParmanAIPipeline:
+class PramaanAIPipeline:
     """
     End-to-end video analytics pipeline for training centre monitoring.
     
@@ -67,7 +67,7 @@ class ParmanAIPipeline:
         self.camera_id = camera_id
         
         print("=" * 60)
-        print("  PARMAN AI ENGINE v0.1.0")
+        print("  PRAMAAN AI ENGINE v0.1.0")
         print("  Privacy-Preserving Training Centre Monitor")
         print("=" * 60)
         print()
@@ -321,13 +321,14 @@ class ParmanAIPipeline:
 
 
 # Backwards compatibility aliases
-DrishtiPipeline = ParmanAIPipeline
-DrishtiKushalPipeline = ParmanAIPipeline
+ParmanAIPipeline = PramaanAIPipeline
+DrishtiPipeline = PramaanAIPipeline
+DrishtiKushalPipeline = PramaanAIPipeline
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Parman AI Engine - Training Centre Monitor"
+        description="Pramaan AI Engine - Training Centre Monitor"
     )
     parser.add_argument(
         "--video", "-v",
@@ -375,7 +376,7 @@ def main():
     args = parser.parse_args()
     
     # Initialize pipeline
-    pipeline = ParmanAIPipeline(
+    pipeline = PramaanAIPipeline(
         sampling_interval=args.interval,
         person_confidence=args.confidence,
         device="cpu",

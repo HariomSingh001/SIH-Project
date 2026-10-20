@@ -20,7 +20,7 @@ class ConnectionManager:
         # Send welcome event
         await websocket.send_text(json.dumps({
             "type": "CONNECTION_ESTABLISHED",
-            "message": "Connected to Parman AI Live Telemetry Stream",
+            "message": "Connected to Pramaan AI Live Telemetry Stream",
             "timestamp": datetime.utcnow().isoformat()
         }))
 

@@ -1,5 +1,5 @@
 """
-Automated End-to-End Test Suite for Parman AI Backend API.
+Automated End-to-End Test Suite for Pramaan AI Backend API.
 Tests:
 1. Lifespan startup and mock data seeding
 2. /health and root endpoints
@@ -17,7 +17,7 @@ from main import app
 
 def run_tests():
     print("========================================")
-    print("Starting Parman AI Backend Tests...")
+    print("Starting Pramaan AI Backend Tests...")
     print("========================================")
 
     # Use TestClient with context manager to trigger lifespan (startup/shutdown)

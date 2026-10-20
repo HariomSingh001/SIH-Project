@@ -1,5 +1,5 @@
 """
-Parman AI Backend - FastAPI Entry Point.
+Pramaan AI Backend - FastAPI Entry Point.
 AI-Powered Training Centre Monitoring System with Live WebSockets & End-to-End AI Pipeline.
 """
 
@@ -29,7 +29,7 @@ from app.api import (
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Application lifespan manager: sets up DB tables and seeds initial data."""
-    print("[Lifespan] Starting up Parman AI Backend API...")
+    print("[Lifespan] Starting up Pramaan AI Backend API...")
     await init_db()
 
     # Seed mock data if DB is empty
@@ -39,12 +39,12 @@ async def lifespan(app: FastAPI):
 
     yield
 
-    print("[Lifespan] Shutting down Parman AI Backend API...")
+    print("[Lifespan] Shutting down Pramaan AI Backend API...")
     await close_db()
 
 
 app = FastAPI(
-    title="Parman AI API",
+    title="Pramaan AI API",
     description="AI-Powered Training Centre Monitoring - Discrepancy & Verification Engine with Live WebSockets",
     version="0.5.0",
     docs_url="/docs",
@@ -94,7 +94,7 @@ async def websocket_endpoint(websocket: WebSocket):
 @app.get("/")
 async def root():
     return {
-        "project": "Parman AI Monitoring API",
+        "project": "Pramaan AI Monitoring API",
         "version": "0.5.0",
         "phase": "Phase 5 - End-to-End Pipeline & Real-Time Sync Complete",
         "websocket": "/ws",
@@ -117,7 +117,7 @@ async def root():
 async def health_check():
     return {
         "status": "healthy",
-        "service": "parman-ai-backend",
+        "service": "pramaan-ai-backend",
         "version": "0.5.0",
         "websocket_active_clients": len(ws_manager.active_connections)
     }

@@ -72,7 +72,7 @@ export default function App() {
 
         socket.onopen = () => {
           setWsConnected(true);
-          console.log('[WebSocket] Connected to Parman AI Central Live Stream');
+          console.log('[WebSocket] Connected to Pramaan AI Central Live Stream');
         };
 
         socket.onmessage = (event) => {

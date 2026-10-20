@@ -10,14 +10,14 @@ class Settings(BaseSettings):
     """Application settings loaded from environment variables or defaults."""
     
     # App
-    APP_NAME: str = "Parman AI API"
+    APP_NAME: str = "Pramaan AI API"
     APP_VERSION: str = "0.1.0"
     DEBUG: bool = True
     
     PROJECT_ROOT: Path = Path(__file__).resolve().parent.parent.parent.parent
     
     # Database
-    DATABASE_URL: str = f"sqlite+aiosqlite:///{Path(__file__).resolve().parent.parent.parent.parent.as_posix()}/parman_ai.db"
+    DATABASE_URL: str = f"sqlite+aiosqlite:///{Path(__file__).resolve().parent.parent.parent.parent.as_posix()}/pramaan_ai.db"
     
     # CORS
     CORS_ORIGINS: list = ["*"]

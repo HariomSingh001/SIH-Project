@@ -1,4 +1,4 @@
-# Parman AI Backend API
+# Pramaan AI Backend API
 
 AI-Powered Monitoring and Telemetry Ingestion Engine built with **FastAPI**, **SQLAlchemy** (async), and **SQLite** (aiosqlite).
 

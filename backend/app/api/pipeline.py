@@ -42,7 +42,7 @@ async def run_pipeline_worker(params: VideoProcessRequest):
     and streams progress events over WebSocket.
     """
     try:
-        from ai_engine.main import ParmanAIPipeline
+        from ai_engine.main import PramaanAIPipeline
 
         video_full_path = project_root / params.video_path
         if not video_full_path.exists():
@@ -59,7 +59,7 @@ async def run_pipeline_worker(params: VideoProcessRequest):
         })
 
         output_dir = project_root / "output"
-        pipeline = ParmanAIPipeline(
+        pipeline = PramaanAIPipeline(
             person_confidence=params.confidence,
             output_dir=str(output_dir)
         )

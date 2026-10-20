@@ -15,7 +15,7 @@ from app.services.discrepancy import evaluate_attendance_discrepancy
 
 def run_verification():
     print("=" * 65)
-    print("  PARMAN AI: SIH PRE-SUBMISSION SYSTEM VERIFICATION")
+    print("  PRAMAAN AI: SIH PRE-SUBMISSION SYSTEM VERIFICATION")
     print("=" * 65)
 
     passed_count = 0
@@ -62,7 +62,7 @@ def run_verification():
         assert_test("API /health Check", res.status_code == 200 and res.json()["status"] == "healthy")
 
         res = client.get("/")
-        assert_test("API Root & Version Info", res.status_code == 200 and "Parman AI" in res.json()["project"])
+        assert_test("API Root & Version Info", res.status_code == 200 and "Pramaan AI" in res.json()["project"])
 
         # Centres
         res = client.get("/api/centres")

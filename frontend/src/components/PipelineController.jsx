@@ -174,18 +174,18 @@ export default function PipelineController({
   const rtspDailyGB = (cameraCount * dailyHours * rtspBytesPerHourPerCam) / (1024 * 1024 * 1024);
   const rtspMonthlyGB = rtspDailyGB * 30;
 
-  // Parman AI: Samples 1 frame every `samplingInterval` seconds
+  // Pramaan AI: Samples 1 frame every `samplingInterval` seconds
   const samplesPerHour = 3600 / samplingInterval;
   const jsonPacketBytes = 2048; // ~2 KB JSON
   // Only ~15% of frames require evidence upload (on discrepancies or periodic audit)
   const evidenceJPEGsPerHour = Math.max(1, samplesPerHour * 0.15);
   const jpegBytes = 85 * 1024; // ~85 KB JPEG
-  const parmanBytesPerHourPerCam = (samplesPerHour * jsonPacketBytes) + (evidenceJPEGsPerHour * jpegBytes);
-  const parmanDailyMB = (cameraCount * dailyHours * parmanBytesPerHourPerCam) / (1024 * 1024);
-  const parmanMonthlyGB = (parmanDailyMB * 30) / 1024;
+  const pramaanBytesPerHourPerCam = (samplesPerHour * jsonPacketBytes) + (evidenceJPEGsPerHour * jpegBytes);
+  const pramaanDailyMB = (cameraCount * dailyHours * pramaanBytesPerHourPerCam) / (1024 * 1024);
+  const pramaanMonthlyGB = (pramaanDailyMB * 30) / 1024;
 
-  const savingsPercent = ((1 - (parmanDailyMB / 1024) / rtspDailyGB) * 100).toFixed(2);
-  const costSavingsINR = Math.round((rtspMonthlyGB - parmanMonthlyGB) * 12); // ~₹12/GB 4G enterprise data
+  const savingsPercent = ((1 - (pramaanDailyMB / 1024) / rtspDailyGB) * 100).toFixed(2);
+  const costSavingsINR = Math.round((rtspMonthlyGB - pramaanMonthlyGB) * 12); // ~₹12/GB 4G enterprise data
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '28px' }}>
@@ -584,19 +584,19 @@ export default function PipelineController({
             </div>
           </div>
 
-          {/* Parman AI Smart Telemetry */}
+          {/* Pramaan AI Smart Telemetry */}
           <div style={{ background: '#ecfdf5', border: '1px solid #a7f3d0', padding: '18px', borderRadius: '12px' }}>
             <span style={{ fontSize: '11.5px', fontWeight: '700', color: '#065f46', textTransform: 'uppercase' }}>
-              Parman AI Edge Vision Telemetry
+              Pramaan AI Edge Vision Telemetry
             </span>
             <h4 style={{ fontSize: '24px', fontWeight: '700', color: '#15803d', margin: '8px 0 4px' }}>
-              {parmanDailyMB.toFixed(1)} MB / Day
+              {pramaanDailyMB.toFixed(1)} MB / Day
             </h4>
             <p style={{ fontSize: '12px', color: '#065f46' }}>
               Smart 1-per-{samplingInterval}s telemetry JSON + key blurred evidence frames.
             </p>
             <div style={{ marginTop: '12px', paddingTop: '10px', borderTop: '1px solid #d1fae5', fontSize: '12px', color: '#065f46' }}>
-              Monthly Consumption: <strong>{(parmanMonthlyGB * 1024).toFixed(0)} MB / month</strong>
+              Monthly Consumption: <strong>{(pramaanMonthlyGB * 1024).toFixed(0)} MB / month</strong>
             </div>
           </div>
 
@@ -609,7 +609,7 @@ export default function PipelineController({
               {savingsPercent}% Savings
             </h4>
             <p style={{ fontSize: '12px', color: '#0369a1' }}>
-              Saves approximately <strong>{(rtspMonthlyGB - parmanMonthlyGB).toFixed(0)} GB</strong> of cellular data every month.
+              Saves approximately <strong>{(rtspMonthlyGB - pramaanMonthlyGB).toFixed(0)} GB</strong> of cellular data every month.
             </p>
             <div style={{ marginTop: '12px', paddingTop: '10px', borderTop: '1px solid #e0f2fe', fontSize: '12px', color: '#075985' }}>
               Estimated 4G Data Cost Saved: <strong>₹{costSavingsINR.toLocaleString('en-IN')} / centre / month</strong>
