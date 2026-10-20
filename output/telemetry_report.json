@@ -1,0 +1,1211 @@
+{
+  "pipeline_version": "0.1.0",
+  "processing_timestamp": "2026-10-20T16:02:59+05:30",
+  "centre_id": "CTR-DL-001",
+  "camera_id": "CAM-DL001-01",
+  "video_source": "H:\\SIH Project\\data\\videos\\15861386_1080_1920_30fps.mp4",
+  "summary": {
+    "total_frames_sampled": 6,
+    "sampling_interval_seconds": 2.0,
+    "attendance": {
+      "average_detected": 18.8,
+      "max_detected": 27,
+      "min_detected": 6,
+      "per_frame_counts": [
+        19,
+        19,
+        27,
+        6,
+        22,
+        20
+      ]
+    },
+    "equipment": {
+      "unique_categories_detected": 0,
+      "items": {}
+    },
+    "performance": {
+      "avg_inference_time_ms": 5460.3,
+      "total_processing_time_seconds": 32.76
+    },
+    "bandwidth": {
+      "video_resolution": "1080x1920",
+      "video_fps": 30.0,
+      "demo_sampling_interval_seconds": 2.0,
+      "production_sampling_interval_seconds": 15.0,
+      "continuous_stream_gb_per_day": 21.6,
+      "smart_sampling_mb_per_day": 587.8,
+      "bandwidth_saving_percent": 97.3,
+      "samples_per_day": 5760
+    }
+  },
+  "telemetry_records": [
+    {
+      "telemetry_id": "TEL-20261020-160225-CTR-DL-001",
+      "centre_id": "CTR-DL-001",
+      "camera_id": "CAM-DL001-01",
+      "timestamp": "2026-10-20T16:02:25+05:30",
+      "frame_index": 0,
+      "sampling_interval_seconds": 2.0,
+      "person_detection": {
+        "total_detected": 19,
+        "confidence_avg": 0.551,
+        "confidence_min": 0.255,
+        "confidence_max": 0.885,
+        "roi_area": "full_frame",
+        "bounding_boxes": [
+          {
+            "id": 1,
+            "x": 865,
+            "y": 1030,
+            "w": 77,
+            "h": 152,
+            "confidence": 0.885
+          },
+          {
+            "id": 2,
+            "x": 33,
+            "y": 1338,
+            "w": 301,
+            "h": 271,
+            "confidence": 0.851
+          },
+          {
+            "id": 3,
+            "x": 712,
+            "y": 1446,
+            "w": 239,
+            "h": 182,
+            "confidence": 0.804
+          },
+          {
+            "id": 4,
+            "x": 429,
+            "y": 1391,
+            "w": 127,
+            "h": 121,
+            "confidence": 0.674
+          },
+          {
+            "id": 5,
+            "x": 944,
+            "y": 1372,
+            "w": 135,
+            "h": 202,
+            "confidence": 0.667
+          },
+          {
+            "id": 6,
+            "x": 403,
+            "y": 1263,
+            "w": 83,
+            "h": 111,
+            "confidence": 0.657
+          },
+          {
+            "id": 7,
+            "x": 897,
+            "y": 1255,
+            "w": 87,
+            "h": 116,
+            "confidence": 0.608
+          },
+          {
+            "id": 8,
+            "x": 161,
+            "y": 1276,
+            "w": 91,
+            "h": 67,
+            "confidence": 0.585
+          },
+          {
+            "id": 9,
+            "x": 569,
+            "y": 1418,
+            "w": 99,
+            "h": 104,
+            "confidence": 0.549
+          },
+          {
+            "id": 10,
+            "x": 805,
+            "y": 1277,
+            "w": 94,
+            "h": 101,
+            "confidence": 0.549
+          },
+          {
+            "id": 11,
+            "x": 0,
+            "y": 1355,
+            "w": 88,
+            "h": 156,
+            "confidence": 0.516
+          },
+          {
+            "id": 12,
+            "x": 334,
+            "y": 1404,
+            "w": 95,
+            "h": 132,
+            "confidence": 0.514
+          },
+          {
+            "id": 13,
+            "x": 757,
+            "y": 1328,
+            "w": 87,
+            "h": 93,
+            "confidence": 0.47
+          },
+          {
+            "id": 14,
+            "x": 246,
+            "y": 1292,
+            "w": 65,
+            "h": 93,
+            "confidence": 0.44
+          },
+          {
+            "id": 15,
+            "x": 579,
+            "y": 1276,
+            "w": 81,
+            "h": 108,
+            "confidence": 0.433
+          },
+          {
+            "id": 16,
+            "x": 319,
+            "y": 1249,
+            "w": 88,
+            "h": 111,
+            "confidence": 0.338
+          },
+          {
+            "id": 17,
+            "x": 321,
+            "y": 1305,
+            "w": 70,
+            "h": 95,
+            "confidence": 0.336
+          },
+          {
+            "id": 18,
+            "x": 53,
+            "y": 1335,
+            "w": 47,
+            "h": 49,
+            "confidence": 0.331
+          },
+          {
+            "id": 19,
+            "x": 799,
+            "y": 1386,
+            "w": 89,
+            "h": 85,
+            "confidence": 0.255
+          }
+        ]
+      },
+      "equipment_detection": {
+        "items_detected": [],
+        "equipment_activity": {
+          "motion_detected": false,
+          "active_zones": 0,
+          "activity_level": "unknown"
+        }
+      },
+      "privacy": {
+        "faces_blurred": 14,
+        "blur_method": "gaussian",
+        "blur_kernel_size": 51,
+        "pii_detected": true
+      },
+      "evidence_frame_path": "output\\evidence\\2026-10-20_16-02-25_blurred.jpg",
+      "frame_quality": {
+        "brightness": 0.516,
+        "contrast": 0.46,
+        "blur_score": 0.038,
+        "resolution": "1080x1920"
+      },
+      "edge_metrics": {
+        "inference_time_ms": 9916.0,
+        "model_used": "yolov8n",
+        "device": "CPU"
+      }
+    },
+    {
+      "telemetry_id": "TEL-20261020-160227-CTR-DL-001",
+      "centre_id": "CTR-DL-001",
+      "camera_id": "CAM-DL001-01",
+      "timestamp": "2026-10-20T16:02:27+05:30",
+      "frame_index": 60,
+      "sampling_interval_seconds": 2.0,
+      "person_detection": {
+        "total_detected": 19,
+        "confidence_avg": 0.471,
+        "confidence_min": 0.254,
+        "confidence_max": 0.81,
+        "roi_area": "full_frame",
+        "bounding_boxes": [
+          {
+            "id": 1,
+            "x": 513,
+            "y": 1441,
+            "w": 235,
+            "h": 178,
+            "confidence": 0.81
+          },
+          {
+            "id": 2,
+            "x": 677,
+            "y": 1039,
+            "w": 59,
+            "h": 142,
+            "confidence": 0.757
+          },
+          {
+            "id": 3,
+            "x": 0,
+            "y": 1363,
+            "w": 156,
+            "h": 266,
+            "confidence": 0.679
+          },
+          {
+            "id": 4,
+            "x": 738,
+            "y": 1362,
+            "w": 170,
+            "h": 197,
+            "confidence": 0.659
+          },
+          {
+            "id": 5,
+            "x": 903,
+            "y": 1430,
+            "w": 177,
+            "h": 182,
+            "confidence": 0.603
+          },
+          {
+            "id": 6,
+            "x": 256,
+            "y": 1395,
+            "w": 99,
+            "h": 128,
+            "confidence": 0.598
+          },
+          {
+            "id": 7,
+            "x": 199,
+            "y": 1279,
+            "w": 85,
+            "h": 107,
+            "confidence": 0.565
+          },
+          {
+            "id": 8,
+            "x": 173,
+            "y": 1434,
+            "w": 105,
+            "h": 119,
+            "confidence": 0.527
+          },
+          {
+            "id": 9,
+            "x": 910,
+            "y": 1155,
+            "w": 74,
+            "h": 100,
+            "confidence": 0.488
+          },
+          {
+            "id": 10,
+            "x": 853,
+            "y": 1084,
+            "w": 62,
+            "h": 86,
+            "confidence": 0.442
+          },
+          {
+            "id": 11,
+            "x": 367,
+            "y": 1421,
+            "w": 100,
+            "h": 109,
+            "confidence": 0.418
+          },
+          {
+            "id": 12,
+            "x": 111,
+            "y": 1265,
+            "w": 89,
+            "h": 113,
+            "confidence": 0.348
+          },
+          {
+            "id": 13,
+            "x": 690,
+            "y": 1252,
+            "w": 81,
+            "h": 111,
+            "confidence": 0.333
+          },
+          {
+            "id": 14,
+            "x": 846,
+            "y": 1213,
+            "w": 95,
+            "h": 127,
+            "confidence": 0.313
+          },
+          {
+            "id": 15,
+            "x": 600,
+            "y": 1387,
+            "w": 77,
+            "h": 67,
+            "confidence": 0.303
+          },
+          {
+            "id": 16,
+            "x": 77,
+            "y": 1442,
+            "w": 90,
+            "h": 86,
+            "confidence": 0.296
+          },
+          {
+            "id": 17,
+            "x": 557,
+            "y": 1328,
+            "w": 81,
+            "h": 94,
+            "confidence": 0.276
+          },
+          {
+            "id": 18,
+            "x": 935,
+            "y": 1248,
+            "w": 87,
+            "h": 112,
+            "confidence": 0.274
+          },
+          {
+            "id": 19,
+            "x": 604,
+            "y": 1274,
+            "w": 84,
+            "h": 100,
+            "confidence": 0.254
+          }
+        ]
+      },
+      "equipment_detection": {
+        "items_detected": [],
+        "equipment_activity": {
+          "motion_detected": true,
+          "active_zones": 98,
+          "motion_percentage": 48.25,
+          "activity_level": "high"
+        }
+      },
+      "privacy": {
+        "faces_blurred": 18,
+        "blur_method": "gaussian",
+        "blur_kernel_size": 51,
+        "pii_detected": true
+      },
+      "evidence_frame_path": "output\\evidence\\2026-10-20_16-02-27_blurred.jpg",
+      "frame_quality": {
+        "brightness": 0.513,
+        "contrast": 0.454,
+        "blur_score": 0.297,
+        "resolution": "1080x1920"
+      },
+      "edge_metrics": {
+        "inference_time_ms": 4359.7,
+        "model_used": "yolov8n",
+        "device": "CPU"
+      }
+    },
+    {
+      "telemetry_id": "TEL-20261020-160228-CTR-DL-001",
+      "centre_id": "CTR-DL-001",
+      "camera_id": "CAM-DL001-01",
+      "timestamp": "2026-10-20T16:02:28+05:30",
+      "frame_index": 90,
+      "sampling_interval_seconds": 2.0,
+      "person_detection": {
+        "total_detected": 27,
+        "confidence_avg": 0.486,
+        "confidence_min": 0.278,
+        "confidence_max": 0.866,
+        "roi_area": "full_frame",
+        "bounding_boxes": [
+          {
+            "id": 1,
+            "x": 40,
+            "y": 1299,
+            "w": 90,
+            "h": 109,
+            "confidence": 0.866
+          },
+          {
+            "id": 2,
+            "x": 356,
+            "y": 1454,
+            "w": 233,
+            "h": 181,
+            "confidence": 0.827
+          },
+          {
+            "id": 3,
+            "x": 516,
+            "y": 1032,
+            "w": 58,
+            "h": 154,
+            "confidence": 0.793
+          },
+          {
+            "id": 4,
+            "x": 742,
+            "y": 1419,
+            "w": 220,
+            "h": 188,
+            "confidence": 0.766
+          },
+          {
+            "id": 5,
+            "x": 215,
+            "y": 1439,
+            "w": 101,
+            "h": 110,
+            "confidence": 0.722
+          },
+          {
+            "id": 6,
+            "x": 582,
+            "y": 1363,
+            "w": 168,
+            "h": 201,
+            "confidence": 0.61
+          },
+          {
+            "id": 7,
+            "x": 95,
+            "y": 1416,
+            "w": 110,
+            "h": 127,
+            "confidence": 0.602
+          },
+          {
+            "id": 8,
+            "x": 228,
+            "y": 1296,
+            "w": 82,
+            "h": 114,
+            "confidence": 0.596
+          },
+          {
+            "id": 9,
+            "x": 408,
+            "y": 1333,
+            "w": 84,
+            "h": 97,
+            "confidence": 0.513
+          },
+          {
+            "id": 10,
+            "x": 542,
+            "y": 1256,
+            "w": 81,
+            "h": 112,
+            "confidence": 0.462
+          },
+          {
+            "id": 11,
+            "x": 128,
+            "y": 1304,
+            "w": 66,
+            "h": 82,
+            "confidence": 0.447
+          },
+          {
+            "id": 12,
+            "x": 455,
+            "y": 1279,
+            "w": 86,
+            "h": 104,
+            "confidence": 0.445
+          },
+          {
+            "id": 13,
+            "x": 70,
+            "y": 1520,
+            "w": 292,
+            "h": 135,
+            "confidence": 0.443
+          },
+          {
+            "id": 14,
+            "x": 448,
+            "y": 1391,
+            "w": 84,
+            "h": 80,
+            "confidence": 0.425
+          },
+          {
+            "id": 15,
+            "x": 916,
+            "y": 1358,
+            "w": 113,
+            "h": 110,
+            "confidence": 0.42
+          },
+          {
+            "id": 16,
+            "x": 689,
+            "y": 1085,
+            "w": 70,
+            "h": 83,
+            "confidence": 0.42
+          },
+          {
+            "id": 17,
+            "x": 251,
+            "y": 1358,
+            "w": 63,
+            "h": 85,
+            "confidence": 0.416
+          },
+          {
+            "id": 18,
+            "x": 755,
+            "y": 1155,
+            "w": 68,
+            "h": 89,
+            "confidence": 0.413
+          },
+          {
+            "id": 19,
+            "x": 936,
+            "y": 1111,
+            "w": 69,
+            "h": 87,
+            "confidence": 0.378
+          },
+          {
+            "id": 20,
+            "x": 0,
+            "y": 1289,
+            "w": 38,
+            "h": 115,
+            "confidence": 0.374
+          },
+          {
+            "id": 21,
+            "x": 5,
+            "y": 1459,
+            "w": 147,
+            "h": 121,
+            "confidence": 0.369
+          },
+          {
+            "id": 22,
+            "x": 127,
+            "y": 1370,
+            "w": 81,
+            "h": 83,
+            "confidence": 0.334
+          },
+          {
+            "id": 23,
+            "x": 700,
+            "y": 1211,
+            "w": 85,
+            "h": 130,
+            "confidence": 0.324
+          },
+          {
+            "id": 24,
+            "x": 201,
+            "y": 1409,
+            "w": 69,
+            "h": 92,
+            "confidence": 0.304
+          },
+          {
+            "id": 25,
+            "x": 653,
+            "y": 1297,
+            "w": 76,
+            "h": 91,
+            "confidence": 0.301
+          },
+          {
+            "id": 26,
+            "x": 1009,
+            "y": 1066,
+            "w": 50,
+            "h": 77,
+            "confidence": 0.287
+          },
+          {
+            "id": 27,
+            "x": 780,
+            "y": 1244,
+            "w": 84,
+            "h": 112,
+            "confidence": 0.278
+          }
+        ]
+      },
+      "equipment_detection": {
+        "items_detected": [],
+        "equipment_activity": {
+          "motion_detected": true,
+          "active_zones": 96,
+          "motion_percentage": 41.56,
+          "activity_level": "high"
+        }
+      },
+      "privacy": {
+        "faces_blurred": 23,
+        "blur_method": "gaussian",
+        "blur_kernel_size": 51,
+        "pii_detected": true
+      },
+      "evidence_frame_path": "output\\evidence\\2026-10-20_16-02-28_blurred.jpg",
+      "frame_quality": {
+        "brightness": 0.517,
+        "contrast": 0.448,
+        "blur_score": 0.254,
+        "resolution": "1080x1920"
+      },
+      "edge_metrics": {
+        "inference_time_ms": 4374.0,
+        "model_used": "yolov8n",
+        "device": "CPU"
+      }
+    },
+    {
+      "telemetry_id": "TEL-20261020-160231-CTR-DL-001",
+      "centre_id": "CTR-DL-001",
+      "camera_id": "CAM-DL001-01",
+      "timestamp": "2026-10-20T16:02:31+05:30",
+      "frame_index": 180,
+      "sampling_interval_seconds": 2.0,
+      "person_detection": {
+        "total_detected": 6,
+        "confidence_avg": 0.425,
+        "confidence_min": 0.266,
+        "confidence_max": 0.823,
+        "roi_area": "full_frame",
+        "bounding_boxes": [
+          {
+            "id": 1,
+            "x": 0,
+            "y": 1535,
+            "w": 222,
+            "h": 234,
+            "confidence": 0.823
+          },
+          {
+            "id": 2,
+            "x": 446,
+            "y": 1280,
+            "w": 113,
+            "h": 118,
+            "confidence": 0.453
+          },
+          {
+            "id": 3,
+            "x": 886,
+            "y": 750,
+            "w": 43,
+            "h": 73,
+            "confidence": 0.361
+          },
+          {
+            "id": 4,
+            "x": 884,
+            "y": 1075,
+            "w": 103,
+            "h": 141,
+            "confidence": 0.335
+          },
+          {
+            "id": 5,
+            "x": 333,
+            "y": 1193,
+            "w": 106,
+            "h": 114,
+            "confidence": 0.314
+          },
+          {
+            "id": 6,
+            "x": 726,
+            "y": 1232,
+            "w": 95,
+            "h": 124,
+            "confidence": 0.266
+          }
+        ]
+      },
+      "equipment_detection": {
+        "items_detected": [],
+        "equipment_activity": {
+          "motion_detected": true,
+          "active_zones": 102,
+          "motion_percentage": 55.16,
+          "activity_level": "high"
+        }
+      },
+      "privacy": {
+        "faces_blurred": 6,
+        "blur_method": "gaussian",
+        "blur_kernel_size": 51,
+        "pii_detected": true
+      },
+      "evidence_frame_path": "output\\evidence\\2026-10-20_16-02-31_blurred.jpg",
+      "frame_quality": {
+        "brightness": 0.518,
+        "contrast": 0.429,
+        "blur_score": 0.748,
+        "resolution": "1080x1920"
+      },
+      "edge_metrics": {
+        "inference_time_ms": 4729.7,
+        "model_used": "yolov8n",
+        "device": "CPU"
+      }
+    },
+    {
+      "telemetry_id": "TEL-20261020-160232-CTR-DL-001",
+      "centre_id": "CTR-DL-001",
+      "camera_id": "CAM-DL001-01",
+      "timestamp": "2026-10-20T16:02:32+05:30",
+      "frame_index": 210,
+      "sampling_interval_seconds": 2.0,
+      "person_detection": {
+        "total_detected": 22,
+        "confidence_avg": 0.35,
+        "confidence_min": 0.255,
+        "confidence_max": 0.508,
+        "roi_area": "full_frame",
+        "bounding_boxes": [
+          {
+            "id": 1,
+            "x": 151,
+            "y": 1227,
+            "w": 95,
+            "h": 118,
+            "confidence": 0.508
+          },
+          {
+            "id": 2,
+            "x": 785,
+            "y": 791,
+            "w": 58,
+            "h": 53,
+            "confidence": 0.507
+          },
+          {
+            "id": 3,
+            "x": 858,
+            "y": 906,
+            "w": 89,
+            "h": 83,
+            "confidence": 0.506
+          },
+          {
+            "id": 4,
+            "x": 928,
+            "y": 935,
+            "w": 114,
+            "h": 95,
+            "confidence": 0.453
+          },
+          {
+            "id": 5,
+            "x": 990,
+            "y": 848,
+            "w": 89,
+            "h": 80,
+            "confidence": 0.417
+          },
+          {
+            "id": 6,
+            "x": 160,
+            "y": 1376,
+            "w": 106,
+            "h": 102,
+            "confidence": 0.417
+          },
+          {
+            "id": 7,
+            "x": 685,
+            "y": 1087,
+            "w": 96,
+            "h": 132,
+            "confidence": 0.393
+          },
+          {
+            "id": 8,
+            "x": 845,
+            "y": 1061,
+            "w": 125,
+            "h": 171,
+            "confidence": 0.371
+          },
+          {
+            "id": 9,
+            "x": 827,
+            "y": 795,
+            "w": 53,
+            "h": 52,
+            "confidence": 0.364
+          },
+          {
+            "id": 10,
+            "x": 386,
+            "y": 1215,
+            "w": 92,
+            "h": 111,
+            "confidence": 0.34
+          },
+          {
+            "id": 11,
+            "x": 663,
+            "y": 778,
+            "w": 40,
+            "h": 64,
+            "confidence": 0.34
+          },
+          {
+            "id": 12,
+            "x": 271,
+            "y": 1333,
+            "w": 99,
+            "h": 93,
+            "confidence": 0.316
+          },
+          {
+            "id": 13,
+            "x": 1035,
+            "y": 783,
+            "w": 44,
+            "h": 71,
+            "confidence": 0.3
+          },
+          {
+            "id": 14,
+            "x": 101,
+            "y": 1359,
+            "w": 104,
+            "h": 100,
+            "confidence": 0.296
+          },
+          {
+            "id": 15,
+            "x": 363,
+            "y": 1305,
+            "w": 123,
+            "h": 106,
+            "confidence": 0.293
+          },
+          {
+            "id": 16,
+            "x": 279,
+            "y": 994,
+            "w": 49,
+            "h": 57,
+            "confidence": 0.283
+          },
+          {
+            "id": 17,
+            "x": 383,
+            "y": 1017,
+            "w": 62,
+            "h": 67,
+            "confidence": 0.283
+          },
+          {
+            "id": 18,
+            "x": 110,
+            "y": 1081,
+            "w": 79,
+            "h": 67,
+            "confidence": 0.275
+          },
+          {
+            "id": 19,
+            "x": 3,
+            "y": 1184,
+            "w": 64,
+            "h": 80,
+            "confidence": 0.264
+          },
+          {
+            "id": 20,
+            "x": 978,
+            "y": 750,
+            "w": 44,
+            "h": 79,
+            "confidence": 0.258
+          },
+          {
+            "id": 21,
+            "x": 951,
+            "y": 750,
+            "w": 40,
+            "h": 79,
+            "confidence": 0.257
+          },
+          {
+            "id": 22,
+            "x": 103,
+            "y": 1150,
+            "w": 94,
+            "h": 86,
+            "confidence": 0.255
+          }
+        ]
+      },
+      "equipment_detection": {
+        "items_detected": [],
+        "equipment_activity": {
+          "motion_detected": true,
+          "active_zones": 109,
+          "motion_percentage": 43.71,
+          "activity_level": "high"
+        }
+      },
+      "privacy": {
+        "faces_blurred": 20,
+        "blur_method": "gaussian",
+        "blur_kernel_size": 51,
+        "pii_detected": true
+      },
+      "evidence_frame_path": "output\\evidence\\2026-10-20_16-02-32_blurred.jpg",
+      "frame_quality": {
+        "brightness": 0.533,
+        "contrast": 0.43,
+        "blur_score": 0.438,
+        "resolution": "1080x1920"
+      },
+      "edge_metrics": {
+        "inference_time_ms": 4708.5,
+        "model_used": "yolov8n",
+        "device": "CPU"
+      }
+    },
+    {
+      "telemetry_id": "TEL-20261020-160233-CTR-DL-001",
+      "centre_id": "CTR-DL-001",
+      "camera_id": "CAM-DL001-01",
+      "timestamp": "2026-10-20T16:02:33+05:30",
+      "frame_index": 240,
+      "sampling_interval_seconds": 2.0,
+      "person_detection": {
+        "total_detected": 20,
+        "confidence_avg": 0.472,
+        "confidence_min": 0.255,
+        "confidence_max": 0.849,
+        "roi_area": "full_frame",
+        "bounding_boxes": [
+          {
+            "id": 1,
+            "x": 800,
+            "y": 1011,
+            "w": 210,
+            "h": 194,
+            "confidence": 0.849
+          },
+          {
+            "id": 2,
+            "x": 960,
+            "y": 815,
+            "w": 75,
+            "h": 70,
+            "confidence": 0.764
+          },
+          {
+            "id": 3,
+            "x": 776,
+            "y": 870,
+            "w": 93,
+            "h": 77,
+            "confidence": 0.662
+          },
+          {
+            "id": 4,
+            "x": 812,
+            "y": 808,
+            "w": 53,
+            "h": 70,
+            "confidence": 0.641
+          },
+          {
+            "id": 5,
+            "x": 985,
+            "y": 875,
+            "w": 82,
+            "h": 118,
+            "confidence": 0.632
+          },
+          {
+            "id": 6,
+            "x": 651,
+            "y": 926,
+            "w": 89,
+            "h": 81,
+            "confidence": 0.631
+          },
+          {
+            "id": 7,
+            "x": 789,
+            "y": 960,
+            "w": 85,
+            "h": 117,
+            "confidence": 0.581
+          },
+          {
+            "id": 8,
+            "x": 53,
+            "y": 1353,
+            "w": 110,
+            "h": 123,
+            "confidence": 0.508
+          },
+          {
+            "id": 9,
+            "x": 642,
+            "y": 1076,
+            "w": 116,
+            "h": 173,
+            "confidence": 0.48
+          },
+          {
+            "id": 10,
+            "x": 182,
+            "y": 1339,
+            "w": 117,
+            "h": 137,
+            "confidence": 0.46
+          },
+          {
+            "id": 11,
+            "x": 576,
+            "y": 815,
+            "w": 58,
+            "h": 53,
+            "confidence": 0.457
+          },
+          {
+            "id": 12,
+            "x": 182,
+            "y": 1249,
+            "w": 96,
+            "h": 113,
+            "confidence": 0.357
+          },
+          {
+            "id": 13,
+            "x": 322,
+            "y": 820,
+            "w": 34,
+            "h": 82,
+            "confidence": 0.353
+          },
+          {
+            "id": 14,
+            "x": 174,
+            "y": 1046,
+            "w": 64,
+            "h": 65,
+            "confidence": 0.34
+          },
+          {
+            "id": 15,
+            "x": 845,
+            "y": 989,
+            "w": 71,
+            "h": 107,
+            "confidence": 0.319
+          },
+          {
+            "id": 16,
+            "x": 534,
+            "y": 915,
+            "w": 63,
+            "h": 53,
+            "confidence": 0.304
+          },
+          {
+            "id": 17,
+            "x": 270,
+            "y": 1282,
+            "w": 151,
+            "h": 123,
+            "confidence": 0.301
+          },
+          {
+            "id": 18,
+            "x": 746,
+            "y": 952,
+            "w": 50,
+            "h": 80,
+            "confidence": 0.273
+          },
+          {
+            "id": 19,
+            "x": 615,
+            "y": 819,
+            "w": 59,
+            "h": 50,
+            "confidence": 0.269
+          },
+          {
+            "id": 20,
+            "x": 520,
+            "y": 1196,
+            "w": 135,
+            "h": 107,
+            "confidence": 0.255
+          }
+        ]
+      },
+      "equipment_detection": {
+        "items_detected": [],
+        "equipment_activity": {
+          "motion_detected": true,
+          "active_zones": 117,
+          "motion_percentage": 46.64,
+          "activity_level": "high"
+        }
+      },
+      "privacy": {
+        "faces_blurred": 19,
+        "blur_method": "gaussian",
+        "blur_kernel_size": 51,
+        "pii_detected": true
+      },
+      "evidence_frame_path": "output\\evidence\\2026-10-20_16-02-33_blurred.jpg",
+      "frame_quality": {
+        "brightness": 0.526,
+        "contrast": 0.456,
+        "blur_score": 0.405,
+        "resolution": "1080x1920"
+      },
+      "edge_metrics": {
+        "inference_time_ms": 4673.9,
+        "model_used": "yolov8n",
+        "device": "CPU"
+      }
+    }
+  ]
+}

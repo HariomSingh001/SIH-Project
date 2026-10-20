@@ -1,0 +1,247 @@
+[
+  {
+    "centre_id": "CTR-DL-001",
+    "centre_name": "Skill India Training Academy - Dwarka",
+    "state": "Delhi",
+    "city": "New Delhi",
+    "district": "South West Delhi",
+    "address": "Plot No. 12, Sector 7, Dwarka, New Delhi - 110077",
+    "latitude": 28.5921,
+    "longitude": 77.0460,
+    "centre_type": "PMKVY",
+    "empanelment_status": "Active",
+    "total_capacity": 120,
+    "active_batches": 3,
+    "sector": "IT-ITeS",
+    "courses": [
+      {
+        "course_id": "ITES-301",
+        "course_name": "Domestic Data Entry Operator",
+        "batch_id": "BTH-DL001-A",
+        "batch_size": 30,
+        "start_date": "2026-09-01",
+        "end_date": "2026-12-01",
+        "shift": "Morning (09:00-13:00)"
+      },
+      {
+        "course_id": "ITES-302",
+        "course_name": "CRM Domestic Non-Voice",
+        "batch_id": "BTH-DL001-B",
+        "batch_size": 25,
+        "start_date": "2026-09-15",
+        "end_date": "2026-12-15",
+        "shift": "Afternoon (14:00-18:00)"
+      },
+      {
+        "course_id": "ITES-303",
+        "course_name": "Junior Software Developer",
+        "batch_id": "BTH-DL001-C",
+        "batch_size": 20,
+        "start_date": "2026-10-01",
+        "end_date": "2027-01-01",
+        "shift": "Morning (09:00-13:00)"
+      }
+    ],
+    "cameras": [
+      {"camera_id": "CAM-DL001-01", "location": "Classroom 1", "type": "Indoor", "resolution": "1080p"},
+      {"camera_id": "CAM-DL001-02", "location": "Computer Lab", "type": "Indoor", "resolution": "1080p"},
+      {"camera_id": "CAM-DL001-03", "location": "Entrance Lobby", "type": "Indoor", "resolution": "720p"}
+    ],
+    "connectivity": "4G LTE (15 Mbps avg)",
+    "contact_person": "Mr. Rajesh Kumar",
+    "contact_phone": "+91-9876543210",
+    "trust_score": 78.5,
+    "last_physical_audit": "2026-07-15",
+    "compliance_status": "Warning"
+  },
+  {
+    "centre_id": "CTR-RJ-002",
+    "centre_name": "Rajasthan Vocational Training Institute - Jaipur",
+    "state": "Rajasthan",
+    "city": "Jaipur",
+    "district": "Jaipur",
+    "address": "Near Mansarovar Metro Station, Jaipur - 302020",
+    "latitude": 26.8488,
+    "longitude": 75.8040,
+    "centre_type": "DGT-ITI",
+    "empanelment_status": "Active",
+    "total_capacity": 80,
+    "active_batches": 2,
+    "sector": "Apparel & Textile",
+    "courses": [
+      {
+        "course_id": "APR-101",
+        "course_name": "Sewing Machine Operator",
+        "batch_id": "BTH-RJ002-A",
+        "batch_size": 35,
+        "start_date": "2026-08-15",
+        "end_date": "2026-11-15",
+        "shift": "Morning (09:00-13:00)"
+      },
+      {
+        "course_id": "APR-102",
+        "course_name": "Hand Embroidery Artisan",
+        "batch_id": "BTH-RJ002-B",
+        "batch_size": 30,
+        "start_date": "2026-09-01",
+        "end_date": "2026-12-01",
+        "shift": "Afternoon (14:00-18:00)"
+      }
+    ],
+    "cameras": [
+      {"camera_id": "CAM-RJ002-01", "location": "Sewing Workshop", "type": "Indoor", "resolution": "1080p"},
+      {"camera_id": "CAM-RJ002-02", "location": "Classroom", "type": "Indoor", "resolution": "720p"}
+    ],
+    "connectivity": "4G (8 Mbps avg)",
+    "contact_person": "Ms. Sunita Devi",
+    "contact_phone": "+91-9812345678",
+    "trust_score": 92.3,
+    "last_physical_audit": "2026-08-20",
+    "compliance_status": "Normal"
+  },
+  {
+    "centre_id": "CTR-BR-003",
+    "centre_name": "Bihar Skill Development Centre - Patna",
+    "state": "Bihar",
+    "city": "Patna",
+    "district": "Patna",
+    "address": "Boring Road, Near Anandpuri, Patna - 800001",
+    "latitude": 25.6093,
+    "longitude": 85.1376,
+    "centre_type": "PMKVY",
+    "empanelment_status": "Active",
+    "total_capacity": 100,
+    "active_batches": 3,
+    "sector": "Electronics & Hardware",
+    "courses": [
+      {
+        "course_id": "ELH-201",
+        "course_name": "Field Technician - Computing & Peripherals",
+        "batch_id": "BTH-BR003-A",
+        "batch_size": 30,
+        "start_date": "2026-09-10",
+        "end_date": "2026-12-10",
+        "shift": "Morning (09:00-13:00)"
+      },
+      {
+        "course_id": "ELH-202",
+        "course_name": "LED Light Repair Technician",
+        "batch_id": "BTH-BR003-B",
+        "batch_size": 25,
+        "start_date": "2026-09-10",
+        "end_date": "2026-12-10",
+        "shift": "Afternoon (14:00-18:00)"
+      },
+      {
+        "course_id": "ELH-203",
+        "course_name": "CCTV Installation Technician",
+        "batch_id": "BTH-BR003-C",
+        "batch_size": 20,
+        "start_date": "2026-10-05",
+        "end_date": "2027-01-05",
+        "shift": "Morning (09:00-13:00)"
+      }
+    ],
+    "cameras": [
+      {"camera_id": "CAM-BR003-01", "location": "Electronics Lab", "type": "Indoor", "resolution": "720p"},
+      {"camera_id": "CAM-BR003-02", "location": "Classroom A", "type": "Indoor", "resolution": "720p"},
+      {"camera_id": "CAM-BR003-03", "location": "Workshop Area", "type": "Indoor", "resolution": "480p"}
+    ],
+    "connectivity": "3G/4G (3 Mbps avg - intermittent)",
+    "contact_person": "Mr. Amit Singh",
+    "contact_phone": "+91-9945678123",
+    "trust_score": 45.2,
+    "last_physical_audit": "2026-05-10",
+    "compliance_status": "Critical"
+  },
+  {
+    "centre_id": "CTR-UP-004",
+    "centre_name": "Lucknow Industrial Training Centre",
+    "state": "Uttar Pradesh",
+    "city": "Lucknow",
+    "district": "Lucknow",
+    "address": "Aliganj, Near Kapoorthala Crossing, Lucknow - 226024",
+    "latitude": 26.8868,
+    "longitude": 80.9462,
+    "centre_type": "NSDC",
+    "empanelment_status": "Active",
+    "total_capacity": 90,
+    "active_batches": 2,
+    "sector": "Automotive",
+    "courses": [
+      {
+        "course_id": "AUT-401",
+        "course_name": "Automotive Service Technician (Two Wheeler)",
+        "batch_id": "BTH-UP004-A",
+        "batch_size": 25,
+        "start_date": "2026-09-01",
+        "end_date": "2026-12-01",
+        "shift": "Morning (09:00-14:00)"
+      },
+      {
+        "course_id": "AUT-402",
+        "course_name": "Automotive Electrician",
+        "batch_id": "BTH-UP004-B",
+        "batch_size": 20,
+        "start_date": "2026-09-15",
+        "end_date": "2026-12-15",
+        "shift": "Afternoon (14:00-18:00)"
+      }
+    ],
+    "cameras": [
+      {"camera_id": "CAM-UP004-01", "location": "Auto Workshop", "type": "Indoor", "resolution": "1080p"},
+      {"camera_id": "CAM-UP004-02", "location": "Theory Classroom", "type": "Indoor", "resolution": "720p"}
+    ],
+    "connectivity": "4G (10 Mbps avg)",
+    "contact_person": "Mr. Vinod Yadav",
+    "contact_phone": "+91-9898765432",
+    "trust_score": 67.8,
+    "last_physical_audit": "2026-06-25",
+    "compliance_status": "Warning"
+  },
+  {
+    "centre_id": "CTR-AS-005",
+    "centre_name": "Northeast Skill Hub - Guwahati",
+    "state": "Assam",
+    "city": "Guwahati",
+    "district": "Kamrup Metropolitan",
+    "address": "GS Road, Bhangagarh, Guwahati - 781005",
+    "latitude": 26.1445,
+    "longitude": 91.7362,
+    "centre_type": "PMKVY",
+    "empanelment_status": "Active",
+    "total_capacity": 60,
+    "active_batches": 2,
+    "sector": "Beauty & Wellness",
+    "courses": [
+      {
+        "course_id": "BWS-501",
+        "course_name": "Assistant Beauty Therapist",
+        "batch_id": "BTH-AS005-A",
+        "batch_size": 20,
+        "start_date": "2026-09-20",
+        "end_date": "2026-12-20",
+        "shift": "Morning (10:00-14:00)"
+      },
+      {
+        "course_id": "BWS-502",
+        "course_name": "Hair Stylist",
+        "batch_id": "BTH-AS005-B",
+        "batch_size": 15,
+        "start_date": "2026-10-01",
+        "end_date": "2027-01-01",
+        "shift": "Afternoon (14:00-18:00)"
+      }
+    ],
+    "cameras": [
+      {"camera_id": "CAM-AS005-01", "location": "Salon Training Room", "type": "Indoor", "resolution": "1080p"},
+      {"camera_id": "CAM-AS005-02", "location": "Theory Classroom", "type": "Indoor", "resolution": "720p"}
+    ],
+    "connectivity": "4G (6 Mbps avg)",
+    "contact_person": "Ms. Priyanka Baruah",
+    "contact_phone": "+91-9876123456",
+    "trust_score": 88.1,
+    "last_physical_audit": "2026-08-05",
+    "compliance_status": "Normal"
+  }
+]

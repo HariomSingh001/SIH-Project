@@ -1,0 +1,26 @@
+# Parman AI Backend Dependencies
+# Phase 1: Core dependencies only
+
+# Web Framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+
+# Database
+sqlalchemy==2.0.35
+aiosqlite==0.20.0
+
+# Data Validation
+pydantic==2.9.0
+pydantic-settings==2.5.0
+
+# HTTP Client (for external API calls)
+httpx==0.27.0
+
+# Utilities
+python-dotenv==1.0.1
+python-multipart==0.0.9
+
+# AI/ML (to be expanded in Phase 2)
+# ultralytics==8.3.0
+# opencv-python==4.10.0
+# numpy==2.1.0

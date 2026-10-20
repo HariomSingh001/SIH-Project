@@ -1,0 +1,462 @@
+[
+  {
+    "centre_id": "CTR-DL-001",
+    "centre_name": "Skill India Training Academy - Dwarka",
+    "sanctioned_date": "2026-06-15",
+    "last_audit_date": "2026-07-15",
+    "equipment": [
+      {
+        "item_id": "EQ-DL001-01",
+        "item_name": "Desktop Computer (i5, 8GB RAM, 256GB SSD)",
+        "category": "IT Equipment",
+        "sanctioned_count": 35,
+        "minimum_required": 30,
+        "location": "Computer Lab",
+        "status": "Mandatory",
+        "last_verified": "2026-07-15",
+        "last_verified_count": 35,
+        "notes": "All units functional at last audit"
+      },
+      {
+        "item_id": "EQ-DL001-02",
+        "item_name": "LCD Monitor (22-inch)",
+        "category": "IT Equipment",
+        "sanctioned_count": 35,
+        "minimum_required": 30,
+        "location": "Computer Lab",
+        "status": "Mandatory",
+        "last_verified": "2026-07-15",
+        "last_verified_count": 35,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-DL001-03",
+        "item_name": "UPS (600VA)",
+        "category": "Power Equipment",
+        "sanctioned_count": 12,
+        "minimum_required": 10,
+        "location": "Computer Lab",
+        "status": "Mandatory",
+        "last_verified": "2026-07-15",
+        "last_verified_count": 12,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-DL001-04",
+        "item_name": "Projector with Screen",
+        "category": "Teaching Aids",
+        "sanctioned_count": 2,
+        "minimum_required": 1,
+        "location": "Classroom 1",
+        "status": "Mandatory",
+        "last_verified": "2026-07-15",
+        "last_verified_count": 2,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-DL001-05",
+        "item_name": "Whiteboard (6x4 ft)",
+        "category": "Teaching Aids",
+        "sanctioned_count": 3,
+        "minimum_required": 2,
+        "location": "Classroom 1",
+        "status": "Mandatory",
+        "last_verified": "2026-07-15",
+        "last_verified_count": 3,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-DL001-06",
+        "item_name": "Fire Extinguisher",
+        "category": "Safety Equipment",
+        "sanctioned_count": 4,
+        "minimum_required": 2,
+        "location": "Multiple",
+        "status": "Mandatory",
+        "last_verified": "2026-07-15",
+        "last_verified_count": 4,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-DL001-07",
+        "item_name": "First Aid Kit",
+        "category": "Safety Equipment",
+        "sanctioned_count": 2,
+        "minimum_required": 1,
+        "location": "Multiple",
+        "status": "Mandatory",
+        "last_verified": "2026-07-15",
+        "last_verified_count": 2,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-DL001-08",
+        "item_name": "Student Desk with Chair",
+        "category": "Furniture",
+        "sanctioned_count": 40,
+        "minimum_required": 30,
+        "location": "Classroom 1",
+        "status": "Mandatory",
+        "last_verified": "2026-07-15",
+        "last_verified_count": 40,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "centre_id": "CTR-RJ-002",
+    "centre_name": "Rajasthan Vocational Training Institute - Jaipur",
+    "sanctioned_date": "2026-05-01",
+    "last_audit_date": "2026-08-20",
+    "equipment": [
+      {
+        "item_id": "EQ-RJ002-01",
+        "item_name": "Industrial Sewing Machine (Single Needle Lock Stitch)",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 20,
+        "minimum_required": 15,
+        "location": "Sewing Workshop",
+        "status": "Mandatory",
+        "last_verified": "2026-08-20",
+        "last_verified_count": 20,
+        "notes": "All machines serviced and operational"
+      },
+      {
+        "item_id": "EQ-RJ002-02",
+        "item_name": "Overlock Machine",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 5,
+        "minimum_required": 3,
+        "location": "Sewing Workshop",
+        "status": "Mandatory",
+        "last_verified": "2026-08-20",
+        "last_verified_count": 5,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-RJ002-03",
+        "item_name": "Cutting Table (8x4 ft)",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 3,
+        "minimum_required": 2,
+        "location": "Sewing Workshop",
+        "status": "Mandatory",
+        "last_verified": "2026-08-20",
+        "last_verified_count": 3,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-RJ002-04",
+        "item_name": "Iron Press (Steam)",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 4,
+        "minimum_required": 2,
+        "location": "Sewing Workshop",
+        "status": "Mandatory",
+        "last_verified": "2026-08-20",
+        "last_verified_count": 4,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-RJ002-05",
+        "item_name": "Embroidery Frame Set",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 30,
+        "minimum_required": 25,
+        "location": "Sewing Workshop",
+        "status": "Mandatory",
+        "last_verified": "2026-08-20",
+        "last_verified_count": 30,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-RJ002-06",
+        "item_name": "Dress Form / Mannequin",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 6,
+        "minimum_required": 4,
+        "location": "Sewing Workshop",
+        "status": "Mandatory",
+        "last_verified": "2026-08-20",
+        "last_verified_count": 6,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-RJ002-07",
+        "item_name": "Fire Extinguisher",
+        "category": "Safety Equipment",
+        "sanctioned_count": 3,
+        "minimum_required": 2,
+        "location": "Multiple",
+        "status": "Mandatory",
+        "last_verified": "2026-08-20",
+        "last_verified_count": 3,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "centre_id": "CTR-BR-003",
+    "centre_name": "Bihar Skill Development Centre - Patna",
+    "sanctioned_date": "2026-04-20",
+    "last_audit_date": "2026-05-10",
+    "equipment": [
+      {
+        "item_id": "EQ-BR003-01",
+        "item_name": "Desktop Computer (i3, 4GB RAM, 128GB SSD)",
+        "category": "IT Equipment",
+        "sanctioned_count": 25,
+        "minimum_required": 20,
+        "location": "Electronics Lab",
+        "status": "Mandatory",
+        "last_verified": "2026-05-10",
+        "last_verified_count": 25,
+        "notes": "3 units had display issues during last audit"
+      },
+      {
+        "item_id": "EQ-BR003-02",
+        "item_name": "Multimeter (Digital)",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 30,
+        "minimum_required": 25,
+        "location": "Electronics Lab",
+        "status": "Mandatory",
+        "last_verified": "2026-05-10",
+        "last_verified_count": 28,
+        "notes": "2 units missing at last audit"
+      },
+      {
+        "item_id": "EQ-BR003-03",
+        "item_name": "Soldering Station",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 15,
+        "minimum_required": 10,
+        "location": "Workshop Area",
+        "status": "Mandatory",
+        "last_verified": "2026-05-10",
+        "last_verified_count": 12,
+        "notes": "3 stations non-functional"
+      },
+      {
+        "item_id": "EQ-BR003-04",
+        "item_name": "Oscilloscope (2-Channel)",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 5,
+        "minimum_required": 3,
+        "location": "Electronics Lab",
+        "status": "Mandatory",
+        "last_verified": "2026-05-10",
+        "last_verified_count": 4,
+        "notes": "1 unit under repair"
+      },
+      {
+        "item_id": "EQ-BR003-05",
+        "item_name": "LED Panel Training Kit",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 15,
+        "minimum_required": 10,
+        "location": "Workshop Area",
+        "status": "Mandatory",
+        "last_verified": "2026-05-10",
+        "last_verified_count": 10,
+        "notes": "5 kits removed since last audit — not returned"
+      },
+      {
+        "item_id": "EQ-BR003-06",
+        "item_name": "CCTV Camera Installation Practice Board",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 10,
+        "minimum_required": 8,
+        "location": "Workshop Area",
+        "status": "Mandatory",
+        "last_verified": "2026-05-10",
+        "last_verified_count": 10,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-BR003-07",
+        "item_name": "Fire Extinguisher",
+        "category": "Safety Equipment",
+        "sanctioned_count": 4,
+        "minimum_required": 2,
+        "location": "Multiple",
+        "status": "Mandatory",
+        "last_verified": "2026-05-10",
+        "last_verified_count": 2,
+        "notes": "2 extinguishers expired — replacement needed"
+      }
+    ]
+  },
+  {
+    "centre_id": "CTR-UP-004",
+    "centre_name": "Lucknow Industrial Training Centre",
+    "sanctioned_date": "2026-05-15",
+    "last_audit_date": "2026-06-25",
+    "equipment": [
+      {
+        "item_id": "EQ-UP004-01",
+        "item_name": "Two-Wheeler Engine (Cut Section Model)",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 5,
+        "minimum_required": 3,
+        "location": "Auto Workshop",
+        "status": "Mandatory",
+        "last_verified": "2026-06-25",
+        "last_verified_count": 5,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-UP004-02",
+        "item_name": "Automotive Tool Kit (Complete)",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 12,
+        "minimum_required": 10,
+        "location": "Auto Workshop",
+        "status": "Mandatory",
+        "last_verified": "2026-06-25",
+        "last_verified_count": 12,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-UP004-03",
+        "item_name": "Automotive Electrical Training Board",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 8,
+        "minimum_required": 6,
+        "location": "Auto Workshop",
+        "status": "Mandatory",
+        "last_verified": "2026-06-25",
+        "last_verified_count": 8,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-UP004-04",
+        "item_name": "Hydraulic Jack (2-Ton)",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 4,
+        "minimum_required": 3,
+        "location": "Auto Workshop",
+        "status": "Mandatory",
+        "last_verified": "2026-06-25",
+        "last_verified_count": 4,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-UP004-05",
+        "item_name": "Battery Charger & Tester",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 4,
+        "minimum_required": 3,
+        "location": "Auto Workshop",
+        "status": "Mandatory",
+        "last_verified": "2026-06-25",
+        "last_verified_count": 4,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-UP004-06",
+        "item_name": "Fire Extinguisher",
+        "category": "Safety Equipment",
+        "sanctioned_count": 4,
+        "minimum_required": 3,
+        "location": "Multiple",
+        "status": "Mandatory",
+        "last_verified": "2026-06-25",
+        "last_verified_count": 4,
+        "notes": ""
+      }
+    ]
+  },
+  {
+    "centre_id": "CTR-AS-005",
+    "centre_name": "Northeast Skill Hub - Guwahati",
+    "sanctioned_date": "2026-06-01",
+    "last_audit_date": "2026-08-05",
+    "equipment": [
+      {
+        "item_id": "EQ-AS005-01",
+        "item_name": "Salon Chair with Hydraulic Base",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 10,
+        "minimum_required": 8,
+        "location": "Salon Training Room",
+        "status": "Mandatory",
+        "last_verified": "2026-08-05",
+        "last_verified_count": 10,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-AS005-02",
+        "item_name": "Salon Mirror (Wall-Mounted, Lighted)",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 10,
+        "minimum_required": 8,
+        "location": "Salon Training Room",
+        "status": "Mandatory",
+        "last_verified": "2026-08-05",
+        "last_verified_count": 10,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-AS005-03",
+        "item_name": "Hair Dryer (Professional)",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 8,
+        "minimum_required": 6,
+        "location": "Salon Training Room",
+        "status": "Mandatory",
+        "last_verified": "2026-08-05",
+        "last_verified_count": 8,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-AS005-04",
+        "item_name": "Facial Steamer",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 5,
+        "minimum_required": 4,
+        "location": "Salon Training Room",
+        "status": "Mandatory",
+        "last_verified": "2026-08-05",
+        "last_verified_count": 5,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-AS005-05",
+        "item_name": "Mannequin Head (Training)",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 15,
+        "minimum_required": 12,
+        "location": "Salon Training Room",
+        "status": "Mandatory",
+        "last_verified": "2026-08-05",
+        "last_verified_count": 15,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-AS005-06",
+        "item_name": "Manicure/Pedicure Station",
+        "category": "Vocational Equipment",
+        "sanctioned_count": 5,
+        "minimum_required": 4,
+        "location": "Salon Training Room",
+        "status": "Mandatory",
+        "last_verified": "2026-08-05",
+        "last_verified_count": 5,
+        "notes": ""
+      },
+      {
+        "item_id": "EQ-AS005-07",
+        "item_name": "Fire Extinguisher",
+        "category": "Safety Equipment",
+        "sanctioned_count": 2,
+        "minimum_required": 1,
+        "location": "Multiple",
+        "status": "Mandatory",
+        "last_verified": "2026-08-05",
+        "last_verified_count": 2,
+        "notes": ""
+      }
+    ]
+  }
+]

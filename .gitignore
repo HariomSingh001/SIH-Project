@@ -1,0 +1,50 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Environment
+.env
+.env.local
+.env.production
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build
+dist/
+build/
+*.egg
+
+# Video files (too large for git)
+data/videos/*.mp4
+data/videos/*.avi
+data/videos/*.mkv
+data/videos/*.mov
+
+# Model weights (too large for git)
+ai_engine/models/*.pt
+ai_engine/models/*.onnx
+ai_engine/models/*.engine
+
+# Evidence frames (generated)
+data/evidence/
+
+# Database
+*.db
+*.sqlite3
+
+# Logs
+*.log

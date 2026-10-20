@@ -1,0 +1,143 @@
+[
+  {
+    "telemetry_id": "TEL-20261018-103022-DL001",
+    "centre_id": "CTR-DL-001",
+    "camera_id": "CAM-DL001-01",
+    "camera_location": "Classroom 1",
+    "batch_id": "BTH-DL001-A",
+    "timestamp": "2026-10-18T10:30:22+05:30",
+    "frame_index": 42,
+    "sampling_interval_seconds": 30,
+    "person_detection": {
+      "total_detected": 18,
+      "confidence_avg": 0.87,
+      "confidence_min": 0.62,
+      "confidence_max": 0.96,
+      "roi_area": "classroom_seating",
+      "bounding_boxes": [
+        {"id": 1, "x": 120, "y": 85, "w": 45, "h": 110, "confidence": 0.94},
+        {"id": 2, "x": 210, "y": 90, "w": 42, "h": 105, "confidence": 0.92},
+        {"id": 3, "x": 305, "y": 78, "w": 48, "h": 115, "confidence": 0.96},
+        {"id": 4, "x": 400, "y": 92, "w": 44, "h": 108, "confidence": 0.91},
+        {"id": 5, "x": 495, "y": 88, "w": 46, "h": 112, "confidence": 0.89},
+        {"id": 6, "x": 125, "y": 210, "w": 43, "h": 107, "confidence": 0.88},
+        {"id": 7, "x": 215, "y": 215, "w": 47, "h": 113, "confidence": 0.85},
+        {"id": 8, "x": 310, "y": 205, "w": 44, "h": 109, "confidence": 0.90},
+        {"id": 9, "x": 405, "y": 218, "w": 46, "h": 111, "confidence": 0.87},
+        {"id": 10, "x": 500, "y": 208, "w": 43, "h": 106, "confidence": 0.86},
+        {"id": 11, "x": 130, "y": 335, "w": 45, "h": 110, "confidence": 0.82},
+        {"id": 12, "x": 220, "y": 340, "w": 44, "h": 108, "confidence": 0.79},
+        {"id": 13, "x": 315, "y": 330, "w": 47, "h": 114, "confidence": 0.84},
+        {"id": 14, "x": 410, "y": 338, "w": 42, "h": 105, "confidence": 0.81},
+        {"id": 15, "x": 128, "y": 455, "w": 46, "h": 112, "confidence": 0.76},
+        {"id": 16, "x": 222, "y": 460, "w": 43, "h": 107, "confidence": 0.73},
+        {"id": 17, "x": 318, "y": 450, "w": 45, "h": 111, "confidence": 0.62},
+        {"id": 18, "x": 412, "y": 458, "w": 44, "h": 109, "confidence": 0.68}
+      ],
+      "tracking_ids_active": [101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118],
+      "unique_persons_session": 19
+    },
+    "equipment_detection": {
+      "items_detected": [
+        {"class": "desktop_computer", "count": 32, "confidence_avg": 0.91},
+        {"class": "monitor", "count": 32, "confidence_avg": 0.93},
+        {"class": "chair", "count": 38, "confidence_avg": 0.88},
+        {"class": "desk", "count": 38, "confidence_avg": 0.85},
+        {"class": "whiteboard", "count": 2, "confidence_avg": 0.95},
+        {"class": "projector_screen", "count": 1, "confidence_avg": 0.92}
+      ],
+      "equipment_activity": {
+        "active_monitors": 16,
+        "inactive_monitors": 16,
+        "motion_detected_zones": 3
+      }
+    },
+    "privacy": {
+      "faces_blurred": 18,
+      "blur_method": "gaussian",
+      "blur_kernel_size": 51,
+      "pii_detected": false
+    },
+    "evidence_frame_path": "evidence/DL001/2026-10-18_10-30-22_blurred.jpg",
+    "frame_quality": {
+      "brightness": 0.72,
+      "contrast": 0.65,
+      "blur_score": 0.15,
+      "resolution": "1920x1080"
+    },
+    "edge_metrics": {
+      "inference_time_ms": 145,
+      "frame_size_bytes": 89432,
+      "telemetry_size_bytes": 2048,
+      "model_used": "yolov8n",
+      "device": "CPU (Intel i5-10400)"
+    }
+  },
+  {
+    "telemetry_id": "TEL-20261018-101533-BR003",
+    "centre_id": "CTR-BR-003",
+    "camera_id": "CAM-BR003-01",
+    "camera_location": "Electronics Lab",
+    "batch_id": "BTH-BR003-A",
+    "timestamp": "2026-10-18T10:15:33+05:30",
+    "frame_index": 28,
+    "sampling_interval_seconds": 30,
+    "person_detection": {
+      "total_detected": 12,
+      "confidence_avg": 0.78,
+      "confidence_min": 0.55,
+      "confidence_max": 0.91,
+      "roi_area": "electronics_lab",
+      "bounding_boxes": [
+        {"id": 1, "x": 100, "y": 95, "w": 42, "h": 105, "confidence": 0.91},
+        {"id": 2, "x": 195, "y": 100, "w": 44, "h": 108, "confidence": 0.88},
+        {"id": 3, "x": 290, "y": 88, "w": 46, "h": 112, "confidence": 0.85},
+        {"id": 4, "x": 385, "y": 102, "w": 43, "h": 107, "confidence": 0.82},
+        {"id": 5, "x": 105, "y": 230, "w": 45, "h": 110, "confidence": 0.79},
+        {"id": 6, "x": 200, "y": 235, "w": 44, "h": 109, "confidence": 0.76},
+        {"id": 7, "x": 295, "y": 225, "w": 46, "h": 113, "confidence": 0.73},
+        {"id": 8, "x": 390, "y": 238, "w": 42, "h": 106, "confidence": 0.70},
+        {"id": 9, "x": 108, "y": 360, "w": 43, "h": 108, "confidence": 0.67},
+        {"id": 10, "x": 203, "y": 365, "w": 45, "h": 111, "confidence": 0.64},
+        {"id": 11, "x": 298, "y": 355, "w": 44, "h": 109, "confidence": 0.58},
+        {"id": 12, "x": 393, "y": 362, "w": 46, "h": 112, "confidence": 0.55}
+      ],
+      "tracking_ids_active": [201, 202, 203, 204, 205, 206, 207, 208, 209, 210, 211, 212],
+      "unique_persons_session": 14
+    },
+    "equipment_detection": {
+      "items_detected": [
+        {"class": "desktop_computer", "count": 18, "confidence_avg": 0.82},
+        {"class": "monitor", "count": 18, "confidence_avg": 0.84},
+        {"class": "multimeter", "count": 8, "confidence_avg": 0.65},
+        {"class": "soldering_station", "count": 6, "confidence_avg": 0.72},
+        {"class": "oscilloscope", "count": 2, "confidence_avg": 0.78}
+      ],
+      "equipment_activity": {
+        "active_monitors": 10,
+        "inactive_monitors": 8,
+        "motion_detected_zones": 2
+      }
+    },
+    "privacy": {
+      "faces_blurred": 12,
+      "blur_method": "gaussian",
+      "blur_kernel_size": 51,
+      "pii_detected": false
+    },
+    "evidence_frame_path": "evidence/BR003/2026-10-18_10-15-33_blurred.jpg",
+    "frame_quality": {
+      "brightness": 0.58,
+      "contrast": 0.52,
+      "blur_score": 0.28,
+      "resolution": "1280x720"
+    },
+    "edge_metrics": {
+      "inference_time_ms": 198,
+      "frame_size_bytes": 54210,
+      "telemetry_size_bytes": 1856,
+      "model_used": "yolov8n",
+      "device": "CPU (Intel Celeron N5105)"
+    }
+  }
+]
